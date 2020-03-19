@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "16347097965",
+    "firebase_url": "https://instafire-de474.firebaseio.com",
+    "project_id": "instafire-de474",
+    "storage_bucket": "instafire-de474.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:16347097965:android:d63af969762ee4ef304864",
+        "android_client_info": {
+          "package_name": "edu.stanford.rkpandey.instafire"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "16347097965-4blvm2fl4726iggvqvvg3nd1k4bkt2k7.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "edu.stanford.rkpandey.instafire",
+            "certificate_hash": "411ac169cb0586a33051e7a2bee1db3048211c92"
+          }
+        },
+        {
+          "client_id": "16347097965-83ksdgpe6sonej9g53i9ehrc79s7qtdn.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBlR249M39lvL41HaKmo_s6kmAnfzTCZm0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "16347097965-83ksdgpe6sonej9g53i9ehrc79s7qtdn.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
