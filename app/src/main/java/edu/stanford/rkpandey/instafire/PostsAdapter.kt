@@ -32,7 +32,7 @@ class PostsAdapter (val context: Context, val posts: List<Post>) :
             itemView.tvUsername.text = username
             itemView.tvDescription.text = post.description
             Glide.with(context).load(post.imageUrl).into(itemView.ivPost)
-//            Glide.with(context).load(getProfileImageUrl(username)).into(itemView.ivProfileImage)
+            Glide.with(context).load(getProfileImageUrl(username)).into(itemView.ivProfileImage)
             itemView.tvRelativeTime.text = DateUtils.getRelativeTimeSpanString(post.creationTimeMs)
         }
 
