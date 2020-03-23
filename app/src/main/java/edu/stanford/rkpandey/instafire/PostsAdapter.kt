@@ -37,11 +37,11 @@ class PostsAdapter (val context: Context, val posts: List<Post>) :
         }
 
         private fun getProfileImageUrl(username: String): String {
-            val digest = MessageDigest.getInstance("MD5");
-            val hash = digest.digest(username.toByteArray());
+            val digest = MessageDigest.getInstance("MD5")
+            val hash = digest.digest(username.toByteArray())
             val bigInt = BigInteger(hash)
             val hex = bigInt.abs().toString(16)
-            return "https://www.gravatar.com/avatar/$hex?d=identicon";
+            return "https://www.gravatar.com/avatar/$hex?d=identicon"
         }
     }
 }

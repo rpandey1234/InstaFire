@@ -25,6 +25,7 @@ class LoginActivity : AppCompatActivity() {
             val password = etPassword.text.toString()
             if (email.isBlank() || password.isBlank()) {
                 Toast.makeText(this, "Email/password cannot be empty", Toast.LENGTH_SHORT).show()
+                btnLogin.isEnabled = true
                 return@setOnClickListener
             }
             // Firebase authentication check
